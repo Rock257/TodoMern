@@ -1,0 +1,30 @@
+
+.main{
+    /* border: 2px solid red; */
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+input{
+    width: 250px;
+    background-color: whitesmoke;
+    margin-right: 2rem;
+    height: 2.5rem;
+
+    color: black;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 900;
+    height: 2.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(206, 184, 184);
+    color: black;
+}
